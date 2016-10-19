@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class TimeEntry {
+    private static final String wlecomeJungle = "5";
     private String description;
     private float rate;
     private int time;
