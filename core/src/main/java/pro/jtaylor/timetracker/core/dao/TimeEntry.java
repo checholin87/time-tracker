@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Scope("prototype")
-public class TimeEntry implements Cloneable {
+public class TimeEntry {
 
     private String description;
     private float rate;
